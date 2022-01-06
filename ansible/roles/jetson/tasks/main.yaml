@@ -42,6 +42,9 @@
     - python-is-python2
     - libgstreamer1.0-0
     - libgstreamer-plugins-bad1.0-0
+    - cuda-toolkit-10-2
+    - libcudnn8
+    - libcudnn8-dev
 
 - name: Install core packages
   apt:
